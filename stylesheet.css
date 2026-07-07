@@ -3,9 +3,38 @@ img {
     border-color: black;
 }
 
+
 body {
     text-align: center;
-    font-family: "Arial";
+    font-family: Verdana;
     background: mediumspringgreen;
     color: white;
 }
+
+.space {
+  height: 200px;
+}
+
+.knight {
+    width: 100px;
+    height: 100px;
+    align: left;
+    position: relative;
+    animation-name: fly;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+ @keyframes fly {
+    0%  {left:-500px; top:0px;}
+    10%  {left:-400px; top:100px;}
+    20%  {left:-300px; top:0px;}
+    30%  {left:-200px; top:100px;}
+    40% {left:-100px; top:0px;}
+    50%   {left:0px; top:100px;}
+    60%  {left:100px; top:0px;}
+    70%  {left:200px; top:100px;}
+    80%  {left:300px; top:0px;}
+    90%  {left:400px; top:100px;}
+    100% {left:500px; top:0px;}
+  }
