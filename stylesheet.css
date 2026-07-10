@@ -16,8 +16,8 @@ body {
 }
 
 .knight {
-    width: 100px;
-    height: 100px;
+    width: 178px;
+    height: 128px;
     align: left;
     position: relative;
     animation-name: fly;
